@@ -1,0 +1,10 @@
+.theme-dark {
+  --color-primary: var(--white);
+  --color-background: var(--darkblack);
+  
+}
+
+.theme-light {
+  --color-primary: var(--black);
+  --color-background: var(--white);
+}
