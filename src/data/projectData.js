@@ -4,14 +4,14 @@ export const projectData = [
         title: "Bettermart",
         desc: "Ecommerce website for clothes",
         stack: "React JS, CSS, React-Router, Mirage js",
-        img: "src/assets/ecommerce.png"
+        img: "https://res.cloudinary.com/dcxnaihyu/image/upload/v1690186029/ecommerce_skzfe1.png"
     },
     {
         id: 2,
         title: "Link Up",
         desc: "Social Media website",
         stack: "React JS, CSS, React-Router, Mirage js",
-        img: "src/assets/socialmedia.png"
+        img: "https://res.cloudinary.com/dcxnaihyu/image/upload/v1690186028/socialmedia_dxayni.png"
     },
 
 ]
