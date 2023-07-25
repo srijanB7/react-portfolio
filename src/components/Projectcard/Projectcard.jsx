@@ -2,7 +2,7 @@ import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 
 import "./Projectcard.css";
 
-export const Projectcard = ({ img, desc, title, stack }) => {
+export const Projectcard = ({ img, desc, title, stack, githubLink, liveLink }) => {
     //console.log(img);
     return (
         <div className="card-container">
@@ -15,8 +15,8 @@ export const Projectcard = ({ img, desc, title, stack }) => {
                 <p>{stack}</p>
             </div>
             <div className="links">
-                <a><AiFillGithub size="20px"/></a>
-                <a><AiOutlineLink size="20px"/></a>
+                <a href={githubLink}><AiFillGithub size="20px" className="link"/></a>
+                <a href={liveLink}><AiOutlineLink size="20px" className="link"/></a>
             </div>
         </div>
     );
