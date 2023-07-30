@@ -19,6 +19,9 @@
     margin-bottom: 40px;
     flex-grow: 1;
 }
+.footer {
+    margin-top: 20px;
+}
 
 @media only screen and (max-width: 595px) {
     .projects-container {

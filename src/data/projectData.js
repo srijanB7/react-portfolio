@@ -15,7 +15,7 @@ export const projectData = [
         stack: "React JS, CSS, React-Router, Mirage js",
         img: "https://res.cloudinary.com/dcxnaihyu/image/upload/v1690186028/socialmedia_dxayni.png",
         githubLink: "https://github.com/srijanB7/linkup",
-        liveLink: "linkup-dusky.vercel.app"
+        liveLink: "https://linkup-dusky.vercel.app"
     },
 
 ]
